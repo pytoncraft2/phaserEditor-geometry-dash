@@ -28,7 +28,7 @@ export default class Level extends Phaser.Scene {
 		const spaceKey = this.input.keyboard.addKey(Phaser.Input.Keyboard.KeyCodes.SPACE);
 
 		// player
-		const player = new playerPrefab(this, 111, 480);
+		const player = new playerPrefab(this, 111, 303);
 		this.add.existing(player);
 
 		// platformLayer
@@ -86,13 +86,13 @@ export default class Level extends Phaser.Scene {
 		platformLayer.add(platformPrefabEnd);
 
 		// platform_9
-		const platform_9 = new platformPrefab(this, 241.18462423136535, 465.7390174961373);
+		const platform_9 = new platformPrefab(this, 241, 201);
 		platform_9.scaleX = 0.21654173508277852;
 		platform_9.scaleY = 0.8916433316641463;
 		platformLayer.add(platform_9);
 
 		// platform_10
-		const platform_10 = new platformPrefab(this, 119.48171866442847, 378.35082912857985);
+		const platform_10 = new platformPrefab(this, 119, 343);
 		platform_10.scaleX = 1.5085051094947952;
 		platform_10.scaleY = 0.10969505340450836;
 		platformLayer.add(platform_10);
