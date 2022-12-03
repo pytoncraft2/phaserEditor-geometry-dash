@@ -1,0 +1,470 @@
+{
+    "id": "b685c081-ee5f-4b67-b583-415922c9e2c4",
+    "sceneType": "SCENE",
+    "settings": {
+        "exportClass": true,
+        "autoImport": true,
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "Level",
+        "compilerOutputLanguage": "TYPE_SCRIPT"
+    },
+    "displayList": [
+        {
+            "prefabId": "311ed3f6-4fcf-494b-be0b-88531922e60d",
+            "id": "d58606ed-78b7-4365-95cb-5c3b16780a1f",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "player",
+            "scope": "CLASS",
+            "components": [],
+            "x": 111,
+            "y": 480
+        },
+        {
+            "type": "Layer",
+            "id": "1dc2276c-d3b0-4782-b1df-ed2c1c375bd5",
+            "label": "platformLayer",
+            "components": [],
+            "list": [
+                {
+                    "prefabId": "dc2b3341-68b3-4897-80aa-e0a16c911d19",
+                    "id": "447187ec-4571-4e2c-8175-214506b81add",
+                    "unlock": [
+                        "x",
+                        "y"
+                    ],
+                    "label": "platform",
+                    "components": [],
+                    "x": 240,
+                    "y": 537
+                },
+                {
+                    "prefabId": "dc2b3341-68b3-4897-80aa-e0a16c911d19",
+                    "id": "a673f57e-df4b-4469-9c87-da7a3f99c29c",
+                    "unlock": [
+                        "x",
+                        "y"
+                    ],
+                    "label": "platform_1",
+                    "components": [],
+                    "x": 776,
+                    "y": 465
+                },
+                {
+                    "prefabId": "dc2b3341-68b3-4897-80aa-e0a16c911d19",
+                    "id": "49d68e8c-19b5-4df6-8bd9-da2292f6d31c",
+                    "unlock": [
+                        "x",
+                        "y"
+                    ],
+                    "label": "platform_2",
+                    "components": [],
+                    "x": 1170.8280349877548,
+                    "y": 466.1200487958029
+                },
+                {
+                    "prefabId": "dc2b3341-68b3-4897-80aa-e0a16c911d19",
+                    "id": "f48de8cf-9106-4372-bdf3-19bb21c11737",
+                    "unlock": [
+                        "x",
+                        "y"
+                    ],
+                    "label": "platform_3",
+                    "components": [],
+                    "x": 1595.3263519207894,
+                    "y": 475.20178627580094
+                },
+                {
+                    "prefabId": "dc2b3341-68b3-4897-80aa-e0a16c911d19",
+                    "id": "3985c4fb-acd9-4012-8d04-3c84ffaf401a",
+                    "unlock": [
+                        "x",
+                        "y"
+                    ],
+                    "label": "platform_4",
+                    "components": [],
+                    "x": 2014.9345707999596,
+                    "y": 541.7057304000468
+                },
+                {
+                    "prefabId": "dc2b3341-68b3-4897-80aa-e0a16c911d19",
+                    "id": "986e07d7-7438-42cb-bb31-cd10e6643c43",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "scaleX",
+                        "scaleY"
+                    ],
+                    "label": "platform_5",
+                    "components": [],
+                    "x": 2603,
+                    "y": 613,
+                    "scaleX": 6.355418458589321,
+                    "scaleY": 0.12569717186818152
+                },
+                {
+                    "prefabId": "dc2b3341-68b3-4897-80aa-e0a16c911d19",
+                    "id": "911fe96e-e0d2-4d47-9afb-ba93f341fd2f",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "scaleX",
+                        "scaleY"
+                    ],
+                    "label": "platform_6",
+                    "components": [],
+                    "x": 3444,
+                    "y": 613,
+                    "scaleX": 6.355418458589321,
+                    "scaleY": 0.12569717186818152
+                },
+                {
+                    "prefabId": "dc2b3341-68b3-4897-80aa-e0a16c911d19",
+                    "id": "c2c2a6f7-139b-4903-b35d-ff77e60bcafe",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "scaleX",
+                        "scaleY"
+                    ],
+                    "label": "platform_7",
+                    "components": [],
+                    "x": 546,
+                    "y": 545,
+                    "scaleX": 0.12733923091580285,
+                    "scaleY": 2.177143716989785
+                },
+                {
+                    "prefabId": "dc2b3341-68b3-4897-80aa-e0a16c911d19",
+                    "id": "9e36349d-2a1e-4005-9e44-7d4580cbab25",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "scaleX",
+                        "scaleY",
+                        "originX",
+                        "originY"
+                    ],
+                    "label": "platform_8",
+                    "components": [],
+                    "x": 3853,
+                    "y": 623,
+                    "scaleX": 104.52809151856837,
+                    "scaleY": 0.27273448062903644,
+                    "originX": 0,
+                    "originY": 0.5
+                },
+                {
+                    "prefabId": "dc2b3341-68b3-4897-80aa-e0a16c911d19",
+                    "id": "205c9619-f7f3-4243-bb7a-7f642b9ec1e5",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "scaleX",
+                        "scaleY"
+                    ],
+                    "label": "platformPrefabEnd",
+                    "components": [],
+                    "x": 17293,
+                    "y": 570,
+                    "scaleX": 0.3931942925168014,
+                    "scaleY": 4.617270089795117
+                }
+            ]
+        },
+        {
+            "type": "Layer",
+            "id": "2b667186-135a-42ab-a676-a97ba59b9076",
+            "label": "spikeLayer",
+            "components": [],
+            "list": [
+                {
+                    "prefabId": "d4484f6b-8563-4fa5-9ed0-25f695b4ca59",
+                    "id": "d948decf-58a8-48c6-a280-dc34de92cd47",
+                    "unlock": [
+                        "x",
+                        "y"
+                    ],
+                    "label": "spike",
+                    "components": [],
+                    "x": 3223,
+                    "y": 590
+                },
+                {
+                    "prefabId": "d4484f6b-8563-4fa5-9ed0-25f695b4ca59",
+                    "id": "ba3d55e5-d2fb-42cc-9c42-914ff226b069",
+                    "unlock": [
+                        "x",
+                        "y"
+                    ],
+                    "label": "spike_3",
+                    "components": [],
+                    "x": 3250,
+                    "y": 590
+                },
+                {
+                    "prefabId": "d4484f6b-8563-4fa5-9ed0-25f695b4ca59",
+                    "id": "381522da-fad1-427e-9ad1-9d73c10b8783",
+                    "unlock": [
+                        "x",
+                        "y"
+                    ],
+                    "label": "spike_5",
+                    "components": [],
+                    "x": 3584.1840011725612,
+                    "y": 589.771774948277
+                },
+                {
+                    "prefabId": "d4484f6b-8563-4fa5-9ed0-25f695b4ca59",
+                    "id": "7e5808a8-34ab-484e-814a-edf029fd8598",
+                    "unlock": [
+                        "x",
+                        "y"
+                    ],
+                    "label": "spike_6",
+                    "components": [],
+                    "x": 3611,
+                    "y": 590
+                },
+                {
+                    "prefabId": "d4484f6b-8563-4fa5-9ed0-25f695b4ca59",
+                    "id": "8d2848de-3d66-4087-989d-cecea7bb41d6",
+                    "unlock": [
+                        "x",
+                        "y"
+                    ],
+                    "label": "spike_7",
+                    "components": [],
+                    "x": 3638,
+                    "y": 590
+                }
+            ]
+        },
+        {
+            "type": "Layer",
+            "id": "6f823296-1229-447a-8108-f43a2ce9151a",
+            "label": "thrusterLayer",
+            "components": [],
+            "list": [
+                {
+                    "prefabId": "3833ee41-96a3-4401-ab3e-a046b4d08e97",
+                    "id": "110fa896-78f9-4e6b-bb08-c9666f1102a7",
+                    "unlock": [
+                        "x",
+                        "y"
+                    ],
+                    "label": "thrusterCube",
+                    "components": [],
+                    "x": 478,
+                    "y": 678
+                }
+            ]
+        },
+        {
+            "type": "Container",
+            "id": "1abc9e90-143f-473a-8a75-7c9e198e4863",
+            "label": "pushLayer",
+            "components": [],
+            "x": 410,
+            "y": 366,
+            "list": [
+                {
+                    "prefabId": "d9d7ffef-045c-425e-b237-57e7cb0ad0bf",
+                    "id": "2f6fcdaf-49d9-49d0-a076-b5798a63fae4",
+                    "unlock": [
+                        "x",
+                        "y"
+                    ],
+                    "label": "pushPrefabStarter",
+                    "components": [],
+                    "x": 103,
+                    "y": 30
+                },
+                {
+                    "prefabId": "d9d7ffef-045c-425e-b237-57e7cb0ad0bf",
+                    "id": "96ddf003-8866-498e-9a60-32507348e0a6",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "scaleX",
+                        "scaleY",
+                        "originX",
+                        "originY"
+                    ],
+                    "label": "pushPrefabStarter_1",
+                    "components": [],
+                    "x": 3449,
+                    "y": 175,
+                    "scaleX": 103.68653177593973,
+                    "scaleY": 0.40177635391899447,
+                    "originX": 0,
+                    "originY": 0.5
+                },
+                {
+                    "prefabId": "d9d7ffef-045c-425e-b237-57e7cb0ad0bf",
+                    "id": "422eae63-e5a6-41ea-9355-caff340fe60f",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "direction",
+                        "scaleX",
+                        "scaleY",
+                        "puissance"
+                    ],
+                    "label": "pushPrefabGoTop",
+                    "direction": "y",
+                    "puissance": -20,
+                    "components": [],
+                    "x": 16806,
+                    "y": -233,
+                    "scaleX": 0.8298159277594797,
+                    "scaleY": 7.201076292141336
+                }
+            ]
+        },
+        {
+            "type": "Polygon",
+            "id": "984f5855-9bfb-44a7-85bd-0f05f5089c09",
+            "label": "polygon_1",
+            "components": [],
+            "x": 14972,
+            "y": 273,
+            "scaleX": 3.2710798295846213,
+            "scaleY": 3.2710798295846213,
+            "isFilled": true
+        },
+        {
+            "type": "Polygon",
+            "id": "0b15b716-4f67-4134-8ff0-b6e134d97d2e",
+            "label": "polygon",
+            "components": [],
+            "x": 6682,
+            "y": 273,
+            "scaleX": 3.2710798295846213,
+            "scaleY": 3.2710798295846213,
+            "isFilled": true
+        },
+        {
+            "type": "Polygon",
+            "id": "944d682c-beae-410c-8a84-1870bcb02348",
+            "label": "polygon_2",
+            "components": [],
+            "x": 8340,
+            "y": 273,
+            "scaleX": 3.2710798295846213,
+            "scaleY": 3.2710798295846213,
+            "isFilled": true
+        },
+        {
+            "type": "Polygon",
+            "id": "181d71c4-6050-413d-894a-3d1bc2dfb5be",
+            "label": "polygon_3",
+            "components": [],
+            "x": 13314,
+            "y": 273,
+            "scaleX": 3.2710798295846213,
+            "scaleY": 3.2710798295846213,
+            "isFilled": true
+        },
+        {
+            "type": "Polygon",
+            "id": "7cbb44e8-6a9a-40fb-ba09-355ffb785c66",
+            "label": "polygon_4",
+            "components": [],
+            "x": 11656,
+            "y": 273,
+            "scaleX": 3.2710798295846213,
+            "scaleY": 3.2710798295846213,
+            "isFilled": true
+        },
+        {
+            "type": "Polygon",
+            "id": "5c235460-77ae-4289-9508-6c2c32a600db",
+            "label": "polygon_5",
+            "components": [],
+            "x": 5024,
+            "y": 273,
+            "scaleX": 3.2710798295846213,
+            "scaleY": 3.2710798295846213,
+            "isFilled": true
+        },
+        {
+            "type": "Polygon",
+            "id": "1406d52a-7b5d-420e-83a5-fe2e8f6bbee9",
+            "label": "polygon_6",
+            "components": [],
+            "x": 9998,
+            "y": 273,
+            "scaleX": 3.2710798295846213,
+            "scaleY": 3.2710798295846213,
+            "isFilled": true
+        },
+        {
+            "type": "Polygon",
+            "id": "e9023998-f599-4f5b-8d66-90440819f873",
+            "label": "polygon_7",
+            "components": [],
+            "x": 16630,
+            "y": 273,
+            "scaleX": 3.2710798295846213,
+            "scaleY": 3.2710798295846213,
+            "isFilled": true
+        }
+    ],
+    "plainObjects": [
+        {
+            "id": "7275245a-a2cd-4d72-95db-4154f22e5f02",
+            "type": "Keyboard.Key",
+            "label": "spaceKey"
+        },
+        {
+            "id": "f41e236c-b18f-451e-a076-774627097a1d",
+            "type": "Collider",
+            "label": "player_platform_collider",
+            "scope": "METHOD",
+            "object1": "player",
+            "object2": "platformLayer.list"
+        },
+        {
+            "id": "5ca5a520-25fe-40bb-bc4d-d6959f785086",
+            "type": "Collider",
+            "label": "player_spike_collider",
+            "scope": "METHOD",
+            "object1": "player",
+            "object2": "spikeLayer.list",
+            "overlapOnly": true,
+            "collideCallback": "this.playerCollideSpike as any",
+            "callbackContext": "this"
+        },
+        {
+            "id": "33987c59-260d-4ff3-9f8c-f4c719c56704",
+            "type": "Collider",
+            "label": "thruster_player_collider",
+            "scope": "METHOD",
+            "object1": "player",
+            "object2": "thrusterLayer.list",
+            "collideCallback": "this.thrusterAction as any",
+            "callbackContext": "this"
+        },
+        {
+            "id": "a5320c33-9412-48ed-b6ee-e13179956fca",
+            "type": "Collider",
+            "label": "push_player_overlap",
+            "scope": "METHOD",
+            "object1": "player",
+            "object2": "pushLayer.list",
+            "overlapOnly": true,
+            "collideCallback": "this.pushPlayerCollider as any",
+            "callbackContext": "this"
+        }
+    ],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}

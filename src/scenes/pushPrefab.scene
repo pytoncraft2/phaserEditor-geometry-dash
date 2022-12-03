@@ -1,0 +1,77 @@
+{
+    "id": "d9d7ffef-045c-425e-b237-57e7cb0ad0bf",
+    "sceneType": "PREFAB",
+    "settings": {
+        "exportClass": true,
+        "autoImport": true,
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "compilerOutputLanguage": "TYPE_SCRIPT"
+    },
+    "displayList": [
+        {
+            "type": "Rectangle",
+            "id": "0955ec43-6df2-4e98-b3ce-bf48e32e0f56",
+            "label": "rectangle_1",
+            "components": [],
+            "x": 167,
+            "y": 92,
+            "scaleX": 2.082192540850889,
+            "scaleY": 0.8768982168583556,
+            "ArcadeComponent.active": true,
+            "moves": false,
+            "body.width": 128,
+            "body.height": 128,
+            "isFilled": true,
+            "fillColor": "#041d68",
+            "fillAlpha": 0.2,
+            "strokeAlpha": 0.4,
+            "width": 128,
+            "height": 128
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    },
+    "prefabProperties": [
+        {
+            "name": "color",
+            "label": "choosecolor",
+            "tooltip": "choose color",
+            "defValue": "#ffffff",
+            "customDefinition": false,
+            "type": {
+                "id": "color"
+            }
+        },
+        {
+            "name": "direction",
+            "label": "Chosse direction",
+            "tooltip": "Direction x or y velocity",
+            "defValue": "x",
+            "customDefinition": false,
+            "type": {
+                "id": "option",
+                "options": [
+                    "x",
+                    "y"
+                ]
+            }
+        },
+        {
+            "name": "puissance",
+            "label": "puissance of velocity",
+            "tooltip": "Choose a velocity density",
+            "defValue": 100,
+            "customDefinition": false,
+            "type": {
+                "id": "number"
+            }
+        }
+    ]
+}

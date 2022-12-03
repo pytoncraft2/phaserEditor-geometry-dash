@@ -1,0 +1,53 @@
+{
+    "id": "311ed3f6-4fcf-494b-be0b-88531922e60d",
+    "sceneType": "PREFAB",
+    "settings": {
+        "exportClass": true,
+        "autoImport": true,
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "compilerOutputLanguage": "TYPE_SCRIPT"
+    },
+    "displayList": [
+        {
+            "type": "Triangle",
+            "id": "80997df1-5302-4c11-a567-6cd3a1076327",
+            "label": "player",
+            "scope": "CLASS",
+            "components": [],
+            "x": 37,
+            "y": 31,
+            "scaleX": 0.4878821090174235,
+            "scaleY": 0.40621158224912846,
+            "ArcadeComponent.active": true,
+            "body.velocity.x": 400,
+            "body.gravity.y": 800,
+            "angularDrag": 200,
+            "body.width": 128,
+            "body.height": 128,
+            "isFilled": true,
+            "fillColor": "#117ac3",
+            "isStroked": true
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    },
+    "prefabProperties": [
+        {
+            "name": "color",
+            "label": "Player color",
+            "tooltip": "Choose a color for the player",
+            "defValue": "#000000ff",
+            "customDefinition": false,
+            "type": {
+                "id": "color"
+            }
+        }
+    ]
+}
