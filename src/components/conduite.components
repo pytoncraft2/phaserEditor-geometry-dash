@@ -1,0 +1,47 @@
+{
+    "components": [
+        {
+            "name": "HorizontalMove",
+            "baseClass": "UserComponent",
+            "gameObjectType": "Phaser.GameObjects.Rectangle",
+            "properties": [
+                {
+                    "name": "horizontalvel",
+                    "label": "Horizontal Velocity",
+                    "tooltip": "Horizontal velocity of rectangle",
+                    "defValue": 200,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "number"
+                    }
+                },
+                {
+                    "name": "minX",
+                    "label": "Min position X",
+                    "tooltip": "Min position x of rectangle",
+                    "defValue": 0,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "number"
+                    }
+                },
+                {
+                    "name": "maxX",
+                    "label": "Max position X",
+                    "tooltip": "Max position x rectangle position",
+                    "defValue": 3070,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "number"
+                    }
+                }
+            ]
+        }
+    ],
+    "meta": {
+        "app": "Phaser Editor 2D - User Components Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.UserComponents"
+    },
+    "outputLang": "TYPE_SCRIPT"
+}

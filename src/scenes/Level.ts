@@ -5,6 +5,7 @@
 import Phaser from "phaser";
 import playerPrefab from "./playerPrefab";
 import platformPrefab from "./platformPrefab";
+import HorizontalMove from "../components/HorizontalMove";
 import spikePrefab from "./spikePrefab";
 import thrusterPrefab from "./thrusterPrefab";
 import pushPrefab from "./pushPrefab";
@@ -83,6 +84,18 @@ export default class Level extends Phaser.Scene {
 		platformPrefabEnd.scaleX = 0.3931942925168014;
 		platformPrefabEnd.scaleY = 4.617270089795117;
 		platformLayer.add(platformPrefabEnd);
+
+		// platform_9
+		const platform_9 = new platformPrefab(this, 241.18462423136535, 465.7390174961373);
+		platform_9.scaleX = 0.21654173508277852;
+		platform_9.scaleY = 0.8916433316641463;
+		platformLayer.add(platform_9);
+
+		// platform_10
+		const platform_10 = new platformPrefab(this, 119.48171866442847, 378.35082912857985);
+		platform_10.scaleX = 1.5085051094947952;
+		platform_10.scaleY = 0.10969505340450836;
+		platformLayer.add(platform_10);
 
 		// spikeLayer
 		const spikeLayer = this.add.layer();
@@ -193,6 +206,9 @@ export default class Level extends Phaser.Scene {
 
 		// push_player_overlap
 		this.physics.add.overlap(player, pushLayer.list, this.pushPlayerCollider as any, undefined, this);
+
+		// platform_10 (components)
+		new HorizontalMove(platform_10);
 
 		// pushPrefabGoTop (prefab fields)
 		pushPrefabGoTop.direction = "y";
